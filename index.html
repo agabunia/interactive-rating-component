@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Rating Component</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box" id="box">
+        <div class="star">
+            <img src="./images/icon-star.svg" alt="star">
+        </div>
+
+        <h1 class="header">How did we do?</h1>
+        <p class="parag">
+            Please let us know how we did with your support request. All feedback 
+            is appreciated to help us improve our offering!
+        </p>
+
+        <ul class="un-list">
+            <button class="item-btn" id="btnone">
+                <div class="item-wrapper">
+                    <li class="item">1</li>
+                </div>
+            </button>
+            <button class="item-btn" id="btnTwo">
+                <div class="item-wrapper">
+                    <li class="item">2</li>
+                </div>
+            </button>
+            <button class="item-btn" id="btnThree">
+                <div class="item-wrapper">
+                    <li class="item">3</li>
+                </div>
+            </button>
+            <button class="item-btn" id="btnFour">
+                <div class="item-wrapper">
+                    <li class="item">4</li>
+                </div>
+            </button>
+            <button class="item-btn" id="btnFive">
+                <div class="item-wrapper">
+                    <li class="item">5</li>
+                </div>
+            </button>
+        </ul>
+
+        <button class="btn" id="submit">SUBMIT</button>
+    </div>
+    <div class="thank-you" id="thankYou">
+        <div class="thank-img">
+            <img src="./images/illustration-thank-you.svg" alt="thanks">
+        </div>
+        <h1 class="header">Thank you!</h1>
+        <p class="jsOutput" id="jsOutput"></p>
+        <p class="parag">
+            We appreciate you taking the time to give a rating. If you ever need more
+            support, don't hesitate to get in touch!
+        </p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
